@@ -46,7 +46,7 @@ and various [examples][examples]
 License
 -------
 
-QmeQ has [The BSD 2-Clause License][license] license and it can be found
+QmeQ has [The BSD 2-Clause License][license] and it can be found
 in [LICENSE.md](LICENSE.md).
 
 [tutorial]: https://github.com/gedaskir/qmeq/tree/master/tutorial/tutorial.ipynb
