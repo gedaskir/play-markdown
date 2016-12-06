@@ -21,8 +21,8 @@ second-order method
 which can additionally address cotunneling, pair tunneling, and
 broadening effects.
 
-Disclaimer
-----------
+Physics disclaimer
+------------------
 
 All the methods in QmeQ are approximate so depending on parameter regime they
 **can fail**, and a good knowledge of the method is required whether to trust
@@ -46,5 +46,9 @@ and various [examples][examples]
 License
 -------
 
+QmeQ has [The BSD 2-Clause License][license] license and it can be found
+in [LICENSE.md](LICENSE.md).
+
 [tutorial]: https://github.com/gedaskir/qmeq/tree/master/tutorial/tutorial.ipynb
 [examples]: https://github.com/gedaskir/qmeq/tree/master/tutorial
+[license]: https://opensource.org/licenses/BSD-2-Clause

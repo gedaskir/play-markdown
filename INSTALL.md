@@ -49,7 +49,7 @@ be achieved by using the gcc compiler in [MinGW][mingw] suite by adding
 compiler = mingw32
 ```
 
-to *'path to python'\Lib\distutils\distutils.cfg*. If the file does not excist
+to *'path to python'\Lib\distutils\distutils.cfg*. If the file does not exist
 then simply create it. We note that instead of using the actual [MinGW][mingw]
 it is possible to use Python package [Mingwpy], which can be obtained using
 
@@ -60,7 +60,7 @@ $ pip install -i https://pypi.anaconda.org/carlkl/simple mingwpy
 NumPy and ATLAS/OpenBLAS/MKL
 ----------------------------
 
-For a good performarnce of the calculations NumPy needs to be linked to
+For a good performance of the calculations NumPy needs to be linked to
 so-called ATLAS, OpenBLAS, or MKL libraries. To check if NumPy is linked go to
 Python interpreter and write
 
@@ -72,7 +72,7 @@ numpy.show_config()
 If all of the entries like **atlas\_info**, **openblas\_info**, or **mkl\_info**
 says **NOT AVAILABLE** then it is likely that your NumPy does not perform well.
 
-For Windows the NumPy and SciPy libraries linked to MKL can be ontained from
+For Windows the NumPy and SciPy libraries linked to MKL can be obtained from
 [Unofficial Windows Binaries for Python Extension Packages][cgohlke] by
 Christoph Gohlke.
 
@@ -137,7 +137,7 @@ The generated documentation should be in
 [gcc]: http://gcc.gnu.org
 [cext]: https://github.com/cython/cython/wiki/CythonExtensionsOnWindows
 [mingw]: http://www.mingw.org
-[mingwpy]: http://www.mingw.org
+[mingwpy]: https://mingwpy.github.io
 [cgohlke]: http://www.lfd.uci.edu/~gohlke/pythonlibs
 [srtdt]: https://github.com/snide/sphinx_rtd_theme
 
